@@ -1,0 +1,13 @@
+{
+  "product": "LampasPinax",
+  "version": "1.0.90",
+  "released": "2026-10-28",
+  "promoted": "2026-10-31T15:47:29+00:00",
+  "license": "All rights reserved",
+  "server_image": "ghcr.io/jawheelr/lampaspinax-server:1.0.90",
+  "server_update_image": "ghcr.io/jawheelr/lampaspinax-server:1.0.90-update",
+  "server_update_digest": "sha256:62ee3019725524f745d3f1b2622ef11ca813354e878734753eb362b4368b225c",
+  "minimum_version": "",
+  "critical": false,
+  "installers": []
+}
