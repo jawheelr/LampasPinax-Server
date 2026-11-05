@@ -2,7 +2,7 @@
   "product": "LampasPinax",
   "version": "1.0.94",
   "released": "2026-10-30",
-  "promoted": "2026-11-05T17:45:03+00:00",
+  "promoted": "2026-11-05T17:58:50+00:00",
   "license": "All rights reserved",
   "server_image": "ghcr.io/jawheelr/lampaspinax-server:1.0.94",
   "server_update_image": "ghcr.io/jawheelr/lampaspinax-server:1.0.94-update",
