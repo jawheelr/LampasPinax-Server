@@ -1,13 +1,13 @@
-# LampasPinax 1.0.94
+# LampasPinax 1.0.99
 
-Current public release: **1.0.94** (released 2026-10-30).
+Current public release: **1.0.99** (released 2026-11-06).
 
 Download the player installers and packages from the [Releases](../../releases) page.
 
 Server image:
 
 ```
-docker pull ghcr.io/jawheelr/lampaspinax-server:1.0.94
+docker pull ghcr.io/jawheelr/lampaspinax-server:1.0.99
 ```
 
 ## Running the server
@@ -38,7 +38,7 @@ devices trust. Give the container `--shm-size 1gb` (it converts animated graphic
 ```yaml
 services:
   lampaspinax:
-    image: ghcr.io/jawheelr/lampaspinax-server:1.0.94
+    image: ghcr.io/jawheelr/lampaspinax-server:1.0.99
     container_name: lampaspinax
     restart: unless-stopped
     network_mode: host        # lets the server find and reach signs on your LAN; uses port 8080 on the host
@@ -58,7 +58,7 @@ Without host networking, publish the ports instead (automatic discovery of signs
 ```
 docker run -d --name lampaspinax --restart unless-stopped --shm-size 1gb \
   -p 8080:8080 -v "$PWD/data:/data" \
-  -e SESSION_SECRET=... -e CLIENT_ENROLL_TOKEN=... ghcr.io/jawheelr/lampaspinax-server:1.0.94
+  -e SESSION_SECRET=... -e CLIENT_ENROLL_TOKEN=... ghcr.io/jawheelr/lampaspinax-server:1.0.99
 ```
 
 Add `-p 8443:8443 -p 8444:8444 -e DEVICE_CHANNEL_MODE=mtls` only for the client-certificate device channel.
