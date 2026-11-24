@@ -1,13 +1,26 @@
 {
   "product": "LampasPinax",
-  "version": "1.0.99",
-  "released": "2026-11-06",
-  "promoted": "2026-11-07T00:51:53+00:00",
+  "version": "1.0.102",
+  "released": "2026-11-19",
+  "promoted": "2026-11-24T23:15:39+00:00",
   "license": "All rights reserved",
-  "server_image": "ghcr.io/jawheelr/lampaspinax-server:1.0.99",
-  "server_update_image": "ghcr.io/jawheelr/lampaspinax-server:1.0.99-update",
-  "server_update_digest": "sha256:f001067dc71266510e850ba60135c981a24cbc7150f428ba4b58769ada75c462",
+  "server_image": "ghcr.io/jawheelr/lampaspinax-server:1.0.102",
+  "server_update_image": "ghcr.io/jawheelr/lampaspinax-server:1.0.102-update",
+  "server_update_digest": "sha256:4d81c45edbb20c6d394974570c09ae8f9295bbf8f0844fde8ced62ef89cdbe41",
   "minimum_version": "",
   "critical": false,
-  "installers": []
+  "installers": [
+    {
+      "platform": "macos",
+      "file": "LampasPinax-Player-1.0.102.pkg",
+      "size": 365811,
+      "sha256": "f405a1a00ad189b2cce1a1d8c299796f219527a97a8a6bf80e640f23efdb153c"
+    },
+    {
+      "platform": "windows",
+      "file": "LampasPinax-Player-Setup-1.0.102.exe",
+      "size": 67449456,
+      "sha256": "9eeffd1f86531ab53f6be0cbaaa30a61112038c509c33d96c90fdbc3a19c1472"
+    }
+  ]
 }
